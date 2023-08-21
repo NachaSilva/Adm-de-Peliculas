@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { SaveInStorage } from '../helpers/SaveInStorage';
 
-export const Crear = () => {
+export const Crear = ({setListadoState}) => {
   const titleComponent = 'Añadir pelicula';
   const [movieState, setMovieState] = useState({
     title: '',
@@ -27,6 +27,11 @@ export const Crear = () => {
 
     //Guardar estado
     setMovieState(movie);
+
+    //Actualizar estado del listado principal
+    setListadoState(elements => {
+      return[...elements, movie];
+    });
 
     //Guardar en el almacenamiento local con helper
     SaveInStorage('movies', movie);
