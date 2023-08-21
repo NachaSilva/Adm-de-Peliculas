@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Editar } from './Editar';
 
 export const Listado = ({ listadoState, setListadoState }) => {
   // const [listadoState, setListadoState] = useState([]);
@@ -56,6 +57,9 @@ export const Listado = ({ listadoState, setListadoState }) => {
               </button>
 
               {/* Aparece formulario de editar */}
+              {editar==movie.id && (
+                <Editar movie={movie} />
+              )}
             </article>
           );
         })
