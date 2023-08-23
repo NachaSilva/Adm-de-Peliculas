@@ -14,7 +14,7 @@
 
 Este proyecto es una aplicación web desarrollada en React que te permite crear, editar, eliminar y buscar películas. Puedes crear una película proporcionando su nombre y descripción, y una vez creada, tendrás la opción de editar o eliminar la película según tus necesidades. Además, se incluye una funcionalidad de búsqueda que te permite filtrar películas por su nombre. 
 
-![imagen](.src/img/imagenHome.png)
+![imagen](./src/img/imagenHome.png)
 
 ## 2. Características
 
@@ -24,8 +24,20 @@ Este proyecto es una aplicación web desarrollada en React que te permite crear,
 * Búsqueda por Nombre: Utiliza el buscador para filtrar películas por su nombre. 
 
 ## 3. Tecnologías usadas
+* React: La interfaz de usuario está construida utilizando la biblioteca React, lo que permite crear componentes reutilizables y una experiencia de usuario fluida.
+
+* State Management: Se utiliza el estado local de React para gestionar la información de las películas y sus detalles.
+
+* Routing: El enrutamiento está implementado para permitir la navegación entre diferentes vistas de la aplicación.
+
+* LocalStorage: La información sobre las películas se almacena en el almacenamiento local del navegador para persistencia de datos.
+
+* Estilos: Los estilos y el diseño de la aplicación se manejan mediante CSS.
+
+* Gestión de formularios: Se utilizan formularios para la entrada de datos al crear o editar películas.
 
 ## 4. Instrucciones de uso
+
 1. Clona este repositorio.
 2. Abre una terminal y navega hasta el directorio del proyecto.
 3. Ejecuta npm install para instalar las dependencias.
@@ -45,6 +57,6 @@ Como tip: Se pueden agregar funciones a los items del menú
 
 ## 6. Contacto
 
-[x] Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo! [Aquí](https://www.linkedin.com/in/mariaignaciasilva/)
+- [x] Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo! [Aquí](https://www.linkedin.com/in/mariaignaciasilva/)
 
 ¡Que disfrutes utilizando esta aplicación para administrar tus películas de manera fácil y conveniente!
