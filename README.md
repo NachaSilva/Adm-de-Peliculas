@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Sitio para administrar Películas con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+* [1. Descripción del Proyecto](#1-descripcion-del-proyecto)
+* [2. Características](#2-caracteristicas)
+* [3. Tecnologías usadas](#3-tecnologias-usadas)
+* [4. Instrucciones de uso](#4-instrucciones-de-uso)
+* [5. Contribuciones](#5-contribuciones)
+* [6. Contacto ](#6-contacto)
 
-### `npm start`
+## 1. Descripción del Proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este proyecto es una aplicación web desarrollada en React que te permite crear, editar, eliminar y buscar películas. Puedes crear una película proporcionando su nombre y descripción, y una vez creada, tendrás la opción de editar o eliminar la película según tus necesidades. Además, se incluye una funcionalidad de búsqueda que te permite filtrar películas por su nombre. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![imagen](.src/img/imagenHome.png)
 
-### `npm test`
+## 2. Características
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Crear Película: Agrega una nueva película proporcionando su nombre y descripción.
+* Editar Película: Modifica el nombre y la descripción de una película existente.
+* Eliminar Película: Elimina una película de la lista.
+* Búsqueda por Nombre: Utiliza el buscador para filtrar películas por su nombre. 
 
-### `npm run build`
+## 3. Tecnologías usadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 4. Instrucciones de uso
+1. Clona este repositorio.
+2. Abre una terminal y navega hasta el directorio del proyecto.
+3. Ejecuta npm install para instalar las dependencias.
+4. Ejecuta npm start para iniciar la aplicación en tu navegador.
+5. Interactúa con la aplicación para crear, editar, eliminar y buscar películas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 5. Contribuciones
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, sigue estos pasos:
 
-### `npm run eject`
+1. Realiza un fork de este repositorio.
+2. Crea una rama con una descripción clara de la función que estás implementando.
+3. Desarrolla y prueba tu función.
+4. Realiza un pull request describiendo tus cambios.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Como tip: Se pueden agregar funciones a los items del menú
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 6. Contacto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[x] Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo! [Aquí](https://www.linkedin.com/in/mariaignaciasilva/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Que disfrutes utilizando esta aplicación para administrar tus películas de manera fácil y conveniente!

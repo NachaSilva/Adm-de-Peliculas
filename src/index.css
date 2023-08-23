@@ -191,11 +191,10 @@ input[type='button'] {
 /*ESTILOS PARA EL PIE DE PÁGINA*/
 .footer {
   grid-area: footer;
-
   background: #d1defa;
   color: #454545;
   border-top: 1px solid white;
-  text-align: left;
+  text-align: center;
   line-height: 68px;
   padding-left: 25px;
 }
