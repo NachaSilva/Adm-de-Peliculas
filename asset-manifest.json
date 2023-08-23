@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Adm-de-Peliculas/static/css/main.b11c5684.css",
+    "main.js": "/Adm-de-Peliculas/static/js/main.114f60c3.js",
+    "index.html": "/Adm-de-Peliculas/index.html",
+    "main.b11c5684.css.map": "/Adm-de-Peliculas/static/css/main.b11c5684.css.map",
+    "main.114f60c3.js.map": "/Adm-de-Peliculas/static/js/main.114f60c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b11c5684.css",
+    "static/js/main.114f60c3.js"
+  ]
+}
